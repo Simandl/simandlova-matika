@@ -1,18 +1,22 @@
 const vyzvy = [
-    "Kolika otázkami dokážeš najít tajné tříciferné číslo?",
-    "Jaká je šance, že dva studenti mají stejné narozeniny?",
+    "Kolika otázkami najdeš tajné tříciferné číslo?",
+    "Jaká je šance, že dva spolužáci mají stejné narozeniny?",
     "Kolik různých PINů lze vytvořit ze 4 číslic?",
-    "Napiš program, který spočítá počet samohlásek ve jméně.",
-    "Dokážeš rozdělit 20 studentů do čtyř skupin po pěti?",
-    "Jaká je pravděpodobnost, že si sedneš vedle svého nejlepšího kamaráda?"
+    "Napiš program na výpočet počtu samohlásek.",
+    "Kolika způsoby lze rozsadit 5 lidí do lavice?",
+    "Jaká je šance, že si sedneš vedle kamaráda?"
 ];
 
-document.getElementById("challengeBtn")
-.addEventListener("click", function() {
+document
+.getElementById("challengeBtn")
+.addEventListener("click", function(){
 
     const index =
-        Math.floor(Math.random() * vyzvy.length);
+        Math.floor(Math.random()*vyzvy.length);
 
-    document.getElementById("challengeText")
-        .innerText = vyzvy[index];
+    document
+    .*etElementById("challengeText")
+   *.innerText = vyzvy[index];
+
 });
+``*
