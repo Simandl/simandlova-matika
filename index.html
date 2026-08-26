@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simandlova Matika</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Simandlova Matika</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-    <div class="logo">∑ Simandlova Matika</div>
+
+    <div class="logo">
+        ∑ Simandlova Matika
+    </div>
 
     <nav>
-        #Domů</a>
-        <a href="#matematika">Matematika</a>
-formatikaInformatika</a>
-        #vyzvyVýzvy</a>
+        #domuDomů</a>
+        #primaPrima</a>
+        #kvintaKvinta</a>
+        <aextaSexta</a>
+        <anformatikaInformatika</a>
+        <vyzvyVýzvy</a>
     </nav>
+
 </header>
 
-<section class="hero">
+<section id="domu" class="hero">
+
     <h1>Matematika a informatika jinak</h1>
+
     <p>
         Dnes nebudeme počítat příklady.
         Dnes budeme řešit problémy.
@@ -29,35 +40,201 @@ formatikaInformatika</a>
     <button id="challengeBtn">
         🚀 Začít dnešní výzvu
     </button>
+
 </section>
 
 <main>
 
     <section id="vyzvy" class="card">
+
         <h2>🎯 Výzva dne</h2>
+
         <p id="challengeText">
-            Klikni na tlačítko a získej dnešní výzvu.
+            Klikni na tlačítko a získáš dnešní výzvu.
         </p>
+
     </section>
 
-    <section id="matematika" class="card">
-        <h2>📐 Matematika</h2>
+    <section id="prima" class="card">
+
+        <h2>📐 Prima</h2>
+
+        <h3>Dělitelnost</h3>
+
         <p>
-            Kvinta • Sexta • Septima • Maturita
+            Jak rozdělit 24 pizz mezi kamarády,
+            aby se nikdo nehádal?
         </p>
+
+        <ul>
+            <li>Najdi všechny dělitele čísla 48.</li>
+            <li>Vymysli vlastní pravidlo dělitelnosti.</li>
+            <li>Zjisti, zda je číslo 231 dělitelné 3.</li>
+        </ul>
+
+        <h3>Zlomky</h3>
+
+        <p>
+            Kdo snědl větší část pizzy?
+        </p>
+
+        <ul>
+            <li>Porovnej 3/8 a 1/2.</li>
+            <li>Nakresli vlastní pizza příklad.</li>
+        </ul>
+
+        <h3>Procenta</h3>
+
+        <p>
+            Je sleva 30 % opravdu výhodná?
+        </p>
+
+        <ul>
+            <li>Vypočítej cenu trička po slevě.</li>
+            <li>Najdi procenta ve svém oblíbeném obchodě.</li>
+        </ul>
+
+    </section>
+
+    <section id="kvinta" class="card">
+
+        <h2>❤️ Kvinta</h2>
+
+        <h3>Kombinatorika</h3>
+
+        <p>
+            Ve škole je 150 studentů.
+            Kolika způsoby si můžeš vybrat partnera
+            na maturitní ples?
+        </p>
+
+        <ul>
+            <li>Urči počet dvojic ve třídě.</li>
+            <li>Nakresli strom možností.</li>
+            <li>Vysvětli rozdíl mezi kombinací a variací.</li>
+        </ul>
+
+        <h3>Pravděpodobnost</h3>
+
+        <p>
+            Jaká je šance, že budeš sedět vedle
+            svého nejlepšího kamaráda?
+        </p>
+
+        <ul>
+            <li>Modeluj situaci pro 30 studentů.</li>
+            <li>Porovnej teorii a experiment.</li>
+        </ul>
+
+        <h3>Funkce</h3>
+
+        <p>
+            Jak roste počet sledujících na sociální síti?
+        </p>
+
+        <ul>
+            <li>Lineární růst.</li>
+            <li>Exponenciální růst.</li>
+            <li>Nakresli graf obou situací.</li>
+        </ul>
+
+    </section>
+
+    <section id="sexta" class="card">
+
+        <h2>🧭 Sexta</h2>
+
+        <h3>Goniometrie</h3>
+
+        <p>
+            Jak GPS zjistí tvoji polohu?
+        </p>
+
+        <ul>
+            <li>Vypočítej délku strany trojúhelníku.</li>
+            <li>Použij sinus a kosinus.</li>
+        </ul>
+
+        <h3>Analytická geometrie</h3>
+
+        <p>
+            Mapa školy jako soustava souřadnic.
+        </p>
+
+        <ul>
+            <li>Urči vzdálenost dvou učeben.</li>
+            <li>Najdi střed úsečky.</li>
+        </ul>
+
+        <h3>Posloupnosti</h3>
+
+        <p>
+            Jak rychle roste počet odběratelů
+            populárního kanálu?
+        </p>
+
+        <ul>
+            <li>Vytvoř aritmetickou posloupnost.</li>
+            <li>Vytvoř geometrickou posloupnost.</li>
+        </ul>
+
     </section>
 
     <section id="informatika" class="card">
+
         <h2>💻 Informatika</h2>
+
+        <h3>Python</h3>
+
+<pre>
+jmeno = input("Zadej jméno:")
+print(len(jmeno))
+</pre>
+
+        <p>Úkol:</p>
+
+        <ul>
+            <li>Spočítej počet samohlásek ve jméně.</li>
+            <li>Vypiš jméno pozpátku.</li>
+            <li>Urči nejdelší slovo ve větě.</li>
+        </ul>
+
+        <h3>Umělá inteligence</h3>
+
+        <ul>
+            <li>Jak funguje Copilot.</li>
+            <li>Jak fungují prompty.</li>
+            <li>Jak ověřovat odpovědi AI.</li>
+        </ul>
+
+        <h3>Tvorba webů</h3>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+    </section>
+
+    <section class="card">
+
+        <h2>🏆 Síň slávy</h2>
+
         <p>
-            Python • AI • Webové stránky • Projekty
+            Nejlepší řešitelé měsíce budou zveřejněni zde.
         </p>
+
     </section>
 
 </main>
 
 <footer>
-    © 2026 Simandlova Matika
+
+    <p>
+        © 2026 Simandlova Matika
+    </p>
+
 </footer>
 
 script.jsscript>
